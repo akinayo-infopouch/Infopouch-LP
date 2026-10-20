@@ -1,0 +1,98 @@
+{
+  "name": "Infopouch Africa",
+  "tagline": "Accelerating Knowledge.",
+  "logo": "assets/logo-icon.png",
+  "contactEmail": "infopouchafrica@gmail.com",
+  "footerBlurb": "Empowering the next generation of African scholars through collaborative data and verified research repositories.",
+  "nav": [
+    {
+      "label": "Home",
+      "href": "index.html"
+    },
+    {
+      "label": "About Us",
+      "href": "about.html"
+    },
+    {
+      "label": "Blog",
+      "href": "blog.html"
+    }
+  ],
+  "waitlistUrl": "https://infopouch.fillout.com/waitlistsignup",
+  "footerColumns": [
+    {
+      "title": "Platform",
+      "links": [
+        {
+          "label": "Explore Research",
+          "href": "#waitlist"
+        },
+        {
+          "label": "Verified Datasets",
+          "href": "#waitlist"
+        },
+        {
+          "label": "Open Publishing",
+          "href": "#waitlist"
+        },
+        {
+          "label": "Institution Access",
+          "href": "#waitlist"
+        }
+      ]
+    },
+    {
+      "title": "Company",
+      "links": [
+        {
+          "label": "About Our Mission",
+          "href": "about.html"
+        },
+        {
+          "label": "Blog",
+          "href": "blog.html"
+        },
+        {
+          "label": "Contact Support",
+          "href": "mailto:"
+        },
+        {
+          "label": "Partnerships",
+          "href": "mailto:"
+        }
+      ]
+    }
+  ],
+  "legalLinks": [
+    {
+      "label": "Terms of Service",
+      "href": "terms.html"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "privacy.html"
+    },
+    {
+      "label": "Cookie Settings",
+      "href": "cookies.html"
+    }
+  ],
+  "photoCredits": [
+    {
+      "name": "Zoshua Colah",
+      "url": "https://unsplash.com/@zoshuacolah"
+    },
+    {
+      "name": "Jason Leung",
+      "url": "https://unsplash.com/@ninjason"
+    },
+    {
+      "name": "David Olubaji",
+      "url": "https://unsplash.com/@blakdave"
+    },
+    {
+      "name": "Fiona Murray-deGraaff",
+      "url": "https://unsplash.com/@fionamurrayphoto"
+    }
+  ]
+}
