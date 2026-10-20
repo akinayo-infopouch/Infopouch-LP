@@ -14,7 +14,7 @@ async function init(){
   const mail=l=>l.href==="mailto:"?"mailto:"+site.contactEmail:l.href;
   document.getElementById("site-footer").innerHTML=`<footer><div class="wrap"><div class="fgrid"><div><a class="brand" href="index.html">${logo}</a><p class="blurb">${esc(site.footerBlurb)}</p></div>
   <div class="fcols">${site.footerColumns.map(c=>`<div><h4>${esc(c.title)}</h4>${c.links.map(l=>`<a href="${esc(mail(l))}" ${l.href==="#waitlist"?"data-wl":""}>${esc(l.label)}</a>`).join("")}</div>`).join("")}</div></div>
-  <div class="fbot"><span>© ${new Date().getFullYear()} ${esc(site.name)}. ${esc(site.tagline)}</span></div></div></footer>`;
+  <div class="fbot"><span>© ${new Date().getFullYear()} ${esc(site.name)}. ${esc(site.tagline)}</span><span class="legal">${(site.legalLinks||[]).map(l=>`<a href="${esc(l.href)}">${esc(l.label)}</a>`).join("")}</span>${(site.photoCredits||[]).length?`<span class="credits">Photos by ${site.photoCredits.map(c=>`<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.name)}</a>`).join(", ")} on <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a></span>`:""}</div></div></footer>`;
   document.querySelectorAll("[data-wl]").forEach(a=>{if(site.waitlistUrl){a.href=site.waitlistUrl;a.target="_blank";a.rel="noopener"}else a.href="mailto:"+site.contactEmail});
 
   const posts=(await get("data/posts.json")).sort((a,b)=>b.date.localeCompare(a.date));

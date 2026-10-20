@@ -2,7 +2,7 @@
   "name": "Infopouch Africa",
   "tagline": "Accelerating Knowledge.",
   "logo": "assets/logo-icon.png",
-  "contactEmail": "your-email@example.com",
+  "contactEmail": "infopouchafrica@gmail.com",
   "footerBlurb": "Empowering the next generation of African scholars through collaborative data and verified research repositories.",
   "nav": [
     {
@@ -61,6 +61,38 @@
           "href": "mailto:"
         }
       ]
+    }
+  ],
+  "legalLinks": [
+    {
+      "label": "Terms of Service",
+      "href": "terms.html"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "privacy.html"
+    },
+    {
+      "label": "Cookie Settings",
+      "href": "cookies.html"
+    }
+  ],
+  "photoCredits": [
+    {
+      "name": "Zoshua Colah",
+      "url": "https://unsplash.com/@zoshuacolah"
+    },
+    {
+      "name": "Jason Leung",
+      "url": "https://unsplash.com/@ninjason"
+    },
+    {
+      "name": "David Olubaji",
+      "url": "https://unsplash.com/@blakdave"
+    },
+    {
+      "name": "Fiona Murray-deGraaff",
+      "url": "https://unsplash.com/@fionamurrayphoto"
     }
   ]
 }
